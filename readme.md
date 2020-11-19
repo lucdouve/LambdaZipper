@@ -4,11 +4,11 @@ This is a ported version of this [repository](https://github.com/tiivik/LambdaZi
 All credits go to this repo: https://github.com/lucdouve/LambdaZipper
 
 ## Quick start
-`docker run --rm -v $(pwd):/package lucdouve/lambdazipper MY_PIP_PACKAGE`
+`docker run --rm -v $(pwd):/package lucdouve/lambdazipperpython3.7 MY_PIP_PACKAGE`
 
 **Example:**
 
-`docker run --rm -v $(pwd):/package lucdouve/lambdazipper numpy`
+`docker run --rm -v $(pwd):/package lucdouve/lambdazipperpython3.7 numpy`
 
 Result is `numpy.zip` that can be added/uploaded as a [Lambda Layer](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/) or extracted into your existing Lambda deployment package.
 
