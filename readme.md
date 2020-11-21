@@ -1,7 +1,7 @@
 # Python 3.7 Package Creator for AWS Lambda
 This is a ported version of this [repository](https://github.com/tiivik/LambdaZipper) of the Python 3.6 Docker by [Rainer Selvet (Tiivik)](https://github.com/tiivik).
 
-All credits go to this repo: https://github.com/lucdouve/LambdaZipper
+All credits go to this repo: https://github.com/tiivik/LambdaZipper
 
 ## Quick start
 `docker run --rm -v $(pwd):/package lucdouve/lambdazipperpython3.7 MY_PIP_PACKAGE`
